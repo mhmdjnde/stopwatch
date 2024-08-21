@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  border: 5px dashed black;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.but1 {
+  background-color: blue;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: yellowgreen;
+  transition: 0.2s ease-in-out;
+}
+
+.but2 {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: yellowgreen;
+  transition: 0.2s ease-in-out;
+}
+
+.but3 {
+  background-color: brown;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: yellowgreen;
+  transition: 0.2s ease-in-out;
+}
+
+.but1:hover {
+  background-color: rgb(0, 0, 102);
+}
+
+.but2:hover {
+  background-color: rgb(74, 23, 122);
+}
+
+.but3:hover {
+  background-color: rgb(85, 23, 23);
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
